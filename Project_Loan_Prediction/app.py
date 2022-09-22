@@ -65,7 +65,10 @@ salary = st.number_input('Input your current salary (per year)', 0)
 btn_pred = st.button('Request Loan')
 
 if btn_pred:
-    emp_stat = 1 if emp_status == 'Yes' else 0
+    if emp_status == "Yes":
+        emp_stat = 1 
+    else:
+        emp_stat = 0
     
     tmp_pd = pd.DataFrame({
         'Employed':[emp_stat],
