@@ -2,4 +2,3 @@ streamlit
 streamlit_lottie
 pandas
 sklearn
-pickle
