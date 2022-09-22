@@ -47,7 +47,7 @@ with st.container():
 
 
 # load model
-filename = 'Project_Loan_Prediction/model_smote_rf.sav'
+filename = './Project_Loan_Prediction/model_smote_rf.sav'
 loaded_model = pickle.load(open(filename, 'rb'))
 
 st.write('---')
