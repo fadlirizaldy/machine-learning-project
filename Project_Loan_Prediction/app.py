@@ -59,8 +59,8 @@ emp_status = st.selectbox(
 
 st.write('You selected:', emp_status)
 
-bank_balance = st.number_input('Input your current bank balance', 0.0)
-salary = st.number_input('Input your current salary (per year)', 0.0)
+bank_balance = st.number_input('Input your current bank balance', 0)
+salary = st.number_input('Input your current salary (per year)', 0)
 
 btn_pred = st.button('Request Loan')
 
